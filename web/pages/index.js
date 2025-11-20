@@ -69,3 +69,22 @@ export default function Home() {
           
           <div className="bg-white p-6 rounded-lg shadow">
             <div className="text-2xl mb-2">📱</div>
+            <h3 className="font-semibold mb-2">Mobile Friendly</h3>
+            <p className="text-gray-600">Access your study materials anywhere, anytime on any device.</p>
+          </div>
+        </div>
+
+        <div className="mt-8 p-6 bg-blue-50 rounded-lg">
+          <h3 className="font-semibold mb-2">How It Works</h3>
+          <ol className="text-left list-decimal list-inside space-y-2 text-gray-700">
+            <li>Search for your desired book on this website</li>
+            <li>Click on the book you want to download</li>
+            <li>You'll be redirected to our Telegram bot</li>
+            <li>Complete quick verification process</li>
+            <li>Get your PDF instantly!</li>
+          </ol>
+        </div>
+      </div>
+    </Layout>
+  );
+}
